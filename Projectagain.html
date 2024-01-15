@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+
+    .img-home{
+        background-image: url(Home.png);
+    }
+
+  </style>
+  <body>
+    <nav id="navbar-example2" class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#myapp">My App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#downloadtheapp">Download The App</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Email">
+              <input class="form-control me-2" type="password" placeholder="Password">
+              <button class="btn btn-success" type="button">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <div class="container-fluid">
+            <div class="row">
+                <h4 id="home"></h4>
+                    <div style=" width: 100%; height: 490px;" class="mt-4 p-5 bg-primary text-white rounded img-home">
+                        
+                        <div class="row text-overlay position-absolute top-50 start-50 translate-middle">
+                            <div class="col-12">
+                                <h1 style="text-align: center; font-size: 65px; color: black;">My Awesome App!</h1>
+                            </div>
+                            <div class="col-12">
+                                <p style="text-align: center; font-size: 20px; color: black;">This is why YOU should download this fantastic app!</p>
+                            </div>
+                            <hr style="color: black;">
+                            <div class="col-12">
+                            <p style="text-align: center; color: black;"><b>Want to know more? Join our mailing list!</b></p>
+                            </div>
+                            <div class="col-2"></div>
+                            <div class="col-8">
+                                <div class="input-group custom-input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input style="margin-right: 5px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;" type="email" class="form-control" placeholder=" Your email" aria-label="email" aria-describedby="basic-addon1">
+                                    <button type="button" style="border-radius: 8px;" class="btn btn-primary">Sign Up</button>
+                                </div>   
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="row" style="padding-top: 30px;">
+                <div class="col-12">
+                    <h4 style="text-align: center;">Why This App Is Awesome</h4>
+                </div>
+                <div class="col-12">
+                    <p style="text-align: center;">Summary, once again, of your app's awwsomeness</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h4 id="about"></h4>
+            <div class="container-fluid row">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Card.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Card.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Card.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container-fluid" style="padding-top: 60px;">
+
+            <h4 id="downloadtheapp"></h4>
+            <div style="background-color:lightblue; width: 100%; height: 500px; text-align: center; padding-top: 150px;">
+                <h2>Download the app!</h2>
+                <p style="font-size: 20px;">Really, why should I download this app??</p>
+                <img src="Appstore.png" style="width: 300px;">
+
+            </div>
+
+        </div>
+
+        
+        
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
